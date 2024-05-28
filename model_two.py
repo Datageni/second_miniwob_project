@@ -15,7 +15,6 @@ env = gymnasium.make('miniwob/click-button', render_mode='human')
 try:
     # [Starting Episode]{Retrieving observation and info} 
     observation, info = env.reset()
-    print(observation)
     # [Utterance]
     utterance = observation['utterance']
     # [Regular Expression Pattern]
